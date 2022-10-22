@@ -1,2 +1,2 @@
-# Atividade-Semanal-27-10
+# Resisthor-grupo7
 Atividade Semanal
