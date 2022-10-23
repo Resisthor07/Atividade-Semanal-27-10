@@ -1,0 +1,47 @@
+/* ESTILIZAÇÃO DA PAGINA DE CONTATOS */ 
+
+.Botoes__bot{
+    background-color: white;
+    color: #7c4032;
+    font-weight: bold;
+    height: 56px;
+    width: 168px;
+    left: 661x;
+    top: 3027px;
+    border-radius: 61px;
+    border: 3px solid #7c4032;   
+}
+
+.Botoes__input{
+    background-color: #e6af99;
+    height: 56px;
+    width: 374px;
+    left: 558px;
+    top: 2957px;  
+    border-radius: 61px; 
+}
+
+corpo__rodape {
+    text-align: center;
+}
+
+h2 {  
+    width: 422px;
+    height: 96px;
+    left: 749px;
+    top: 2671px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+
+    display: inline;
+    text-align: center;
+    color: #7c4032;
+}
+
+
+
+
