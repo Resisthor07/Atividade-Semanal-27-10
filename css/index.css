@@ -1,5 +1,9 @@
 
 
+footer{
+    background-image: url(../img/Fundo-1.png) ;
+}
+
 .Botoes__bot{
     background-color: white;
     color: #7c4032;
@@ -9,8 +13,8 @@
     left: 661x;
     top: 3027px;
     display: block;
-    margin-left: 14cm;
-    margin-right: auto;
+    align-items: center;
+    
     border-radius: 61px;
     border: 3px solid #7c4032;   
     
@@ -20,21 +24,19 @@
     background-color: #e6af99;
     height: 56px;
     width: 374px;
-    left: 558px;
     top: 2957px;  
     border-radius: 61px; 
     display: block;
-    margin-left: 11cm;
-    margin-right: auto;
-}
+    margin-left: 20%;   
+ }
 
 h2{
 
     text-align: center;
     width: 422px;
     height: 96px;
-    left: 749px;
-    top: 2671px;
+    top: 50%;
+    /*top: 2671px;*/
    
 
     font-family: 'Poppins';
@@ -43,18 +45,15 @@ h2{
     font-size: 64px;
     line-height: 96px;
 
-    display: block;
+    font-display: center;
     margin-left: auto;
     margin-right: auto;
-
+    /*position: absolute;*/
     color: #7c4032;
     
 }
 
-table{
-    border: 3;
-    width: 100%;
-}
+
 
 
 
