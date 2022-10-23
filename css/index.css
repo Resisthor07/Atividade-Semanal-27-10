@@ -1,3 +1,14 @@
 .servicos{
-    background-image: url("../img/Fundo-1.png");
+    background-color: rgba(124, 64, 50, 1);
+}
+
+.botaoservico{
+    background-color: white;
+    color: rgba(124, 64, 50, 1);
+    border-radius: 10px;
+    position: relative;
+
+
+
+
 }
