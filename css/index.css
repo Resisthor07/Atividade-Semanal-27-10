@@ -11,7 +11,7 @@ address{
 }
 
 .botoes {
-    text-align: center;
+    display:flex;
 }
 
 .Botoes__bot {
@@ -35,13 +35,12 @@ address{
 }
 
 .Botoes__input {
-    display: block;
-    margin-bottom: 2%;
     background-color: #e6af99;
-    height: 56px;
-    width: 374px;
-    top: 2957px;
-    border-radius: 61px;
+    border: 5px;
+    height: 1cm;
+    width: 10cm;
+    border-radius:61px;
+    
 }
 
 .contatos{
@@ -96,11 +95,37 @@ h2 {
     color: #7c4032;
 }
 
+.imagem {
+    display:flex; 
+
+}
+.imagem__email{  
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 60%;    
+}
+
+.imagem__telefone{   
+    position: absolute;
+    width: 25px;
+    height: 20px; 
+    left: 60%; 
+}
+
+.imagem__localizacao{
+    display: inline-table;
+    position: absolute; 
+    width: 25px;
+    height: 20px; 
+    left: 60%; 
+}
+
 /*Essa estilização referece a barra do rodapé*/
 .Rodape{
     position: absolute;
     height: 117px;
-    width: 1903px;
+    width: 1703px;
     right: 1903;
     left: 1903;
     top: 3133;
