@@ -1,6 +1,12 @@
+/*Importação da fonte Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.background__servicos {
+    background-color: #7c4032;
+    text-align: center;
+}
 
-.Botoes__bot{
+.Botoes__bot {
     background-color: white;
     color: #7c4032;
     font-weight: bold;
@@ -9,23 +15,37 @@
     left: 661x;
     top: 3027px;
     border-radius: 61px;
-    border: 3px solid #7c4032;   
+    border: 3px solid #7c4032;
 }
 
-.Botoes__input{
+.Botoes__bot--amarelo {
+    background-color: #F3CE5E;
+    font-size: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+}
+
+.Botoes__input {
     background-color: #e6af99;
     height: 56px;
     width: 374px;
     left: 558px;
-    top: 2957px;  
-    border-radius: 61px; 
+    top: 2957px;
+    border-radius: 61px;
 }
 
-corpo__rodape {
+.corpo__rodape {
     text-align: center;
 }
 
-h2 {  
+.estilo__da-pagina {
+    background-image: url('../img/Fundo-1.png');
+    background-repeat: repeat-y;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
     width: 422px;
     height: 96px;
     left: 749px;
@@ -42,6 +62,6 @@ h2 {
     color: #7c4032;
 }
 
-
-
-
+.figura {
+    width: 750px;
+}
