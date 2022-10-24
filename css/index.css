@@ -1,6 +1,10 @@
 /*Importação da fonte Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+address{
+    text-align: center;
+    background-color: white;
+}
 .background__servicos {
     background-color: #7c4032;
     text-align: center;
@@ -11,6 +15,7 @@
 }
 
 .Botoes__bot {
+
     background-color: white;
     color: #7c4032;
     font-weight: bold;
@@ -30,12 +35,33 @@
 }
 
 .Botoes__input {
+    display: block;
+    margin-bottom: 2%;
     background-color: #e6af99;
     height: 56px;
     width: 374px;
-    left: 558px;
     top: 2957px;
     border-radius: 61px;
+}
+
+.contatos{
+    text-align: center;
+    width: 422px;
+    height: 96px;
+    top: 50%;
+    top: 2671px;
+   
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+
+    font-display: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7c4032;   
 }
 
 .estilo__da-pagina {
@@ -46,6 +72,12 @@
 
     font-family: 'Poppins', sans-serif;
 }
+
+.figura {
+    width: 1000px;
+}
+
+
 
 h2 {
     width: 422px;
@@ -64,12 +96,19 @@ h2 {
     color: #7c4032;
 }
 
+/*Essa estilização referece a barra do rodapé*/
+.Rodape{
+    position: absolute;
+    height: 117px;
+    width: 1903px;
+    right: 1903;
+    left: 1903;
+    top: 3133;
+    background-color: #7c4032;   
+ }
 
 .titulo {
     text-align: center;
     color: white;
 }
 
-.figura {
-    width: 1000px;
-}
