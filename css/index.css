@@ -1,14 +1,67 @@
-.servicos{
-    background-color: rgba(124, 64, 50, 1);
-}
 
-.botaoservico{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+.btn-service{
+    height: 200px;
+    width: 20%;
     background-color: white;
     color: rgba(124, 64, 50, 1);
     border-radius: 11px;
-    position: relative;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid rgba(124, 64, 50, 1);
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 5px;
 
 
+}
+.btn-service:hover{
+    background-color: rgba(124, 64, 50, 1);
+    color: white;
+}
+.service-logo{
+    width: 100%;
 
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
+
+.service1{
+
+    background-color: rgba(124, 64, 50, 1);
+    width: 100%;
+}
+
+.btn-help{
+    justify-content: center;
+    background-color: rgba(243, 206, 94, 1);
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    align-self: center;
+    font-size:18px ;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.help{
+    text-align: center;
+    margin: 20px;
 }
