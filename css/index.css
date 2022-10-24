@@ -3,7 +3,7 @@
 
 .address{
     display:flex;
-    flex-direction: row;
+    justify-content: center;
     background-color: white;
 }
 .background__servicos {
@@ -14,17 +14,21 @@
 .botao {
     display:flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .imagens {
     display:flex;
     flex-direction: column;
-    justify-content: center;
     width: 25px;
     height: 20px; 
     left: 60%; 
-    margin: 5px;
+
+}
+
+.imagem {
+    margin: 15px;
+    height: 30px;
+    width: 20px;
 
 }
 
@@ -53,7 +57,7 @@
     border: 5px;
     margin: 5px;
     height: 1cm;
-    width: 10cm;
+    width: 7cm;
     border-radius:61px;   
 }
 
@@ -124,12 +128,16 @@ h2 {
  }
 
 .textos{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
     color: grey;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 25px;
 }
 
 .titulo {
