@@ -6,13 +6,10 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .botoes {
     text-align: center;
 }
 
->>>>>>> producao
 .Botoes__bot {
     background-color: white;
     color: #7c4032;
@@ -41,21 +38,11 @@
     border-radius: 61px;
 }
 
-<<<<<<< HEAD
-.corpo__rodape {
-    text-align: center;
-}
-
-.estilo__da-pagina {
-    background-image: url('../img/Fundo-1.png');
-    background-repeat: repeat-y;
-=======
 .estilo__da-pagina {
     background-color: #FEF4DE;
     background-image: url('../img/Fundo-1.png');
     background-size: 50%;
     background-repeat: repeat;
->>>>>>> producao
 
     font-family: 'Poppins', sans-serif;
 }
@@ -77,10 +64,6 @@ h2 {
     color: #7c4032;
 }
 
-<<<<<<< HEAD
-.figura {
-    width: 750px;
-=======
 
 .titulo {
     text-align: center;
@@ -89,5 +72,4 @@ h2 {
 
 .figura {
     width: 1000px;
->>>>>>> producao
 }
