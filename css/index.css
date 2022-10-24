@@ -16,19 +16,20 @@ body{
     align-items: center;
     
     border-radius: 61px;
-    border: 3px solid #7c4032;   
-    
+    border: 3px solid #7c4032;       
 }
 
-.Botoes__input{
-    
+.Botoes__input{   
+   
     background-color: #e6af99;
     height: 56px;
     width: 374px;
     top: 2957px;  
     border-radius: 61px; 
-    display: block;
-   /* margin-left: auto;  */ 
+    display: inline;  
+    left: 80%;
+    right: 50%;
+
  }
 
  /* Usamos essa estilização para deixar o fundo da pagina final toda com a cor branca*/
@@ -59,29 +60,28 @@ h2{
 }
 
 .img__email{  
+    position: absolute;
     width: 50px;
-    height: 50px;   
+    height: 50px;
+    left: 60%;    
 }
 
-.img__telefone{  
+.img__telefone{ 
+    position: absolute; 
     width: 50px;
-    height: 50px;  
+    height: 50px; 
+    left: 60%; 
 }
 
 .img__localização{ 
+    position: absolute;
     width: 50px;
     height: 50px; 
+    left: 60%; 
 }
 
 
-
-.Linha{   
-    display:flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-self: center;
-}
-
+/*Essa estilização referece a barra do rodapé*/
 .Rodape{
     position: absolute;
     height: 117px;
