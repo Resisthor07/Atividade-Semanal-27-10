@@ -4,8 +4,6 @@
 .address{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
     background-color: white;
 }
 .background__servicos {
@@ -13,10 +11,20 @@
     text-align: center;
 }
 
-.botoes {
+.botao {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+}
+
+.imagens {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25px;
+    height: 20px; 
+    left: 60%; 
+    margin: 5px;
 
 }
 
@@ -81,7 +89,10 @@
     width: 1000px;
 }
 
-
+footer{
+    background-color: white;
+    text-align: center;
+}
 
 h2 {
     width: 422px;
@@ -100,15 +111,6 @@ h2 {
     color: #7c4032;
 }
 
-.imagem{
-    position: absolute;
-    width: 25px;
-    height: 20px; 
-    left: 60%; 
-    margin: 5px;
-}
-
-
 
 /*Essa estilização referece a barra do rodapé*/
 .Rodape{
@@ -121,7 +123,8 @@ h2 {
     background-color: #7c4032;   
  }
 
-.texto{
+.textos{
+    color: grey;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
