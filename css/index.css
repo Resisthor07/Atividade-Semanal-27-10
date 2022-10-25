@@ -31,8 +31,8 @@
 
 }
 .title-service{
-    font-family: 'Poppins';
-        font-size: 40px;
+    font-family:'Poppins';
+    font-size: 40px;
     color: white;
     justify-content: center;
 }
@@ -41,7 +41,7 @@
     flex-direction: column;
     background-color: rgba(124, 64, 50, 1);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     justify-content: space-between;
 
@@ -50,7 +50,7 @@
     justify-content: center;
     cursor: pointer;
     background-color: rgba(243, 206, 94, 1);
-    width: 210px;
+    width:210px;
     height: 66px;
     border-radius: 57px;
     font-weight: 700;
