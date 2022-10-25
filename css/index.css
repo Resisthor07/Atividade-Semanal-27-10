@@ -16,18 +16,10 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-
-
-
 }
 .btn-service:hover{
     background-color: rgba(243, 206, 94, 1);
     color: white;
-}
-.service-logo{
-    width: 100%;
-
-
 }
 .services{
     width: 100%;
@@ -40,11 +32,10 @@
 }
 .title-service{
     font-family: 'Poppins';
-    font-size: 40px;
+        font-size: 40px;
     color: white;
     justify-content: center;
 }
-
 .service1{
     display: flex;
     flex-direction: column;
@@ -55,7 +46,6 @@
     justify-content: space-between;
 
 }
-
 .btn-help{
     justify-content: center;
     cursor: pointer;
@@ -88,142 +78,17 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.help{
+.help {
     text-align: center;
     margin: 20px;
 }
-/*Importação da fonte Poppins*/
-
-address{
-    text-align: center;
-    background-color: white;
-}
-.background__servicos {
-    background-color: #7c4032;
-    text-align: center;
-}
-
-.botoes {
-    display:flex;
-}
-
-.Botoes__bot {
-
-    background-color: white;
-    color: #7c4032;
-    font-weight: bold;
-    height: 56px;
-    width: 168px;
-    left:661px;
-    top: 3027px;
-    border-radius: 61px;
-    border: 3px solid #7c4032;
-}
-
-.Botoes__bot--amarelo {
-    background-color: #F3CE5E;
-    font-size: 18px;
-    margin-bottom: 25px;
-    box-shadow: 00px 20px 40px rgba(243, 206, 94, 0.2);
-}
-
-.Botoes__input {
-    background-color: #e6af99;
-    border: 5px;
-    height: 1cm;
-    width: 10cm;
-    border-radius:61px;
-    
-}
-
-.contatos{
-    text-align: center;
-    width: 422px;
-    height: 96px;
-    top: 2671px;
-   
-
-    font-family:'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 96px;
-
-    font-display: auto;
-    margin-left: auto;
-    margin-right: auto;
-    color: #7c4032;   
-}
-
 .estilo__da-pagina {
     background-color: #FEF4DE;
     background-image: url('../img/Fundo-1.png');
     background-size: 50%;
     background-repeat: repeat;
-
     font-family: 'Poppins', sans-serif;
 }
 
-.figura {
-    width: 10px;
-}
-
-
-
-h2 {
-    width: 422px;
-    height: 96px;
-    left: 749px;
-    top: 2671px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 96px;
-
-    display: inline;
-    text-align: center;
-    color: #7c4032;
-}
-
-.imagem {
-    display:flex; 
-
-}
-.imagem__email{  
-    position: absolute;
-    width: 25px;
-    height: 20px;
-    left: 60%;    
-}
-
-.imagem__telefone{   
-    position: absolute;
-    width: 25px;
-    height: 20px; 
-    left: 60%; 
-}
-
-.imagem__localizacao{
-    display: inline-table;
-    position: absolute; 
-    width: 25px;
-    height: 20px; 
-    left: 60%; 
-}
-
-/*Essa estilização referece a barra do rodapé*/
-.Rodape{
-    position: absolute;
-    ;
-    background-color: #7c4032;   
- }
-
-.titulo {
-    text-align: center;
-    color: white;
-}
 
 
