@@ -12,7 +12,7 @@
 {  
     height: 1024px;
     width: 1956px;
-    border-radius: 0% 30% 0% 40%;
+    border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
     background-color: #fef4de;
     background-image: url(../img/Fundo-1.png);
 }
