@@ -16,7 +16,7 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-    margin: 5px;
+
 
 
 }
@@ -30,12 +30,12 @@
 
 }
 .services{
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 
 }
 .title-service{
@@ -46,11 +46,14 @@
 }
 
 .service1{
-
+    display: flex;
+    flex-direction: column;
     background-color: rgba(124, 64, 50, 1);
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
+    justify-content: space-between;
+
 }
 
 .btn-help{
@@ -163,7 +166,7 @@ address{
 }
 
 .figura {
-    width: 1000px;
+    width: 10px;
 }
 
 
@@ -214,11 +217,7 @@ h2 {
 /*Essa estilização referece a barra do rodapé*/
 .Rodape{
     position: absolute;
-    height: 117px;
-    width: 1703px;
-    right: 1903px;
-    left: 1903px;
-    top: 3133px;
+    ;
     background-color: #7c4032;   
  }
 
@@ -227,4 +226,4 @@ h2 {
     color: white;
 }
 
->>>>>>> producao
+
