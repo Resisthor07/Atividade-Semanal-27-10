@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 .btn-service{
@@ -23,34 +21,61 @@
 
 }
 .btn-service:hover{
-    background-color: rgba(124, 64, 50, 1);
+    background-color: rgba(243, 206, 94, 1);
     color: white;
 }
 .service-logo{
     width: 100%;
 
+
 }
 .services{
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
 }
+.title-service{
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
 
 .service1{
 
     background-color: rgba(124, 64, 50, 1);
-    width: 100%;
+    width: auto;
+    height: auto;
+    text-align: center;
 }
 
 .btn-help{
     justify-content: center;
+    cursor: pointer;
     background-color: rgba(243, 206, 94, 1);
     width: 210px;
     height: 66px;
     border-radius: 57px;
-    font-family: 'Poppins';
+    font-weight: 700;
+    align-self: center;
+    font-size:18px ;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-help:hover{
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
     font-weight: 700;
     align-self: center;
     font-size:18px ;
@@ -65,3 +90,141 @@
     text-align: center;
     margin: 20px;
 }
+/*Importação da fonte Poppins*/
+
+address{
+    text-align: center;
+    background-color: white;
+}
+.background__servicos {
+    background-color: #7c4032;
+    text-align: center;
+}
+
+.botoes {
+    display:flex;
+}
+
+.Botoes__bot {
+
+    background-color: white;
+    color: #7c4032;
+    font-weight: bold;
+    height: 56px;
+    width: 168px;
+    left:661px;
+    top: 3027px;
+    border-radius: 61px;
+    border: 3px solid #7c4032;
+}
+
+.Botoes__bot--amarelo {
+    background-color: #F3CE5E;
+    font-size: 18px;
+    margin-bottom: 25px;
+    box-shadow: 00px 20px 40px rgba(243, 206, 94, 0.2);
+}
+
+.Botoes__input {
+    background-color: #e6af99;
+    border: 5px;
+    height: 1cm;
+    width: 10cm;
+    border-radius:61px;
+    
+}
+
+.contatos{
+    text-align: center;
+    width: 422px;
+    height: 96px;
+    top: 2671px;
+   
+
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+
+    font-display: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #7c4032;   
+}
+
+.estilo__da-pagina {
+    background-color: #FEF4DE;
+    background-image: url('../img/Fundo-1.png');
+    background-size: 50%;
+    background-repeat: repeat;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.figura {
+    width: 1000px;
+}
+
+
+
+h2 {
+    width: 422px;
+    height: 96px;
+    left: 749px;
+    top: 2671px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+
+    display: inline;
+    text-align: center;
+    color: #7c4032;
+}
+
+.imagem {
+    display:flex; 
+
+}
+.imagem__email{  
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 60%;    
+}
+
+.imagem__telefone{   
+    position: absolute;
+    width: 25px;
+    height: 20px; 
+    left: 60%; 
+}
+
+.imagem__localizacao{
+    display: inline-table;
+    position: absolute; 
+    width: 25px;
+    height: 20px; 
+    left: 60%; 
+}
+
+/*Essa estilização referece a barra do rodapé*/
+.Rodape{
+    position: absolute;
+    height: 117px;
+    width: 1703px;
+    right: 1903px;
+    left: 1903px;
+    top: 3133px;
+    background-color: #7c4032;   
+ }
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+>>>>>>> producao
