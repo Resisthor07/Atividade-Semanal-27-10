@@ -31,6 +31,11 @@
     border: 0px;
 }
 
+.Botoes__bot--amarelo:hover {
+    background-color: #7c4032;
+    color: #F3CE5E;
+}
+
 .Botoes__input {
     background-color: #e6af99;
     height: 56px;
