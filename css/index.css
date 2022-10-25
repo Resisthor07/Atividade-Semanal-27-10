@@ -26,7 +26,9 @@
     background-color: #F3CE5E;
     font-size: 18px;
     margin-bottom: 25px;
+    margin-top: 25px;
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border: 0px;
 }
 
 .Botoes__input {
@@ -47,6 +49,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.estilo__texto {
+    text-align: justify;
+    font-size: 10px;
+}
+
+.estilo__texto--titulo {
+    color: #7c4032;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.estilo__texto--margem {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.estilo__testymonials {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.figura {
+    width: 1000px;
+}
+
 h2 {
     width: 422px;
     height: 96px;
@@ -56,7 +84,7 @@ h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
+    font-size: 45px;
     line-height: 96px;
 
     display: inline;
@@ -64,12 +92,16 @@ h2 {
     color: #7c4032;
 }
 
+.retangulo {
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid #7c4032;
+}
 
 .titulo {
     text-align: center;
     color: white;
-}
-
-.figura {
-    width: 1000px;
 }
