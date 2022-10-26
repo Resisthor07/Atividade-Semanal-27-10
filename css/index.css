@@ -17,26 +17,27 @@
     flex-direction: column;
 }
 
-.centralizar {
-    text-align: center;
-}
-
-.imagens {
+.botao_0 {
     display: flex;
-    flex-direction: column;
-    width: 25px;
-    height: 20px;
-    left: 60%;
-
+    gap: 30px;
 }
 
-.imagem {
-    margin: 15px;
-    height: 30px;
-    width: 20px;
+.botao_1 {
+    float: left;
+    height: 66px;
+    width: 210px;
+    border-radius: 35px;
+    background-color: #f3ce5e;
 }
 
-.Botoes__bot {
+.botao_2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.botoes__bot {
     background-color: white;
     color: #7c4032;
     font-weight: bold;
@@ -47,7 +48,7 @@
     border: 3px solid #7c4032;
 }
 
-.Botoes__bot--amarelo {
+.botoes__bot--amarelo {
     background-color: #F3CE5E;
     font-size: 18px;
     margin-bottom: 25px;
@@ -57,18 +58,58 @@
     border: 0px;
 }
 
-.Botoes__bot--amarelo:hover {
+.botoes__bot--amarelo:hover {
     background-color: #7c4032;
     color: #F3CE5E;
 }
 
-.Botoes__input {
+.botoes__input {
     background-color: #e6af99;
     margin: 2px;
     border: 5px;
     height: 56px;
     width: 374px;
     border-radius: 61px;
+}
+
+.btn-help {
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(243, 206, 94, 1);
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-help:hover {
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.centralizar {
+    text-align: center;
 }
 
 .contatos {
@@ -81,7 +122,7 @@
     font-size: 64px;
     line-height: 96px;
 
-    font-display: center;
+    font-display: auto;
     margin: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -108,6 +149,14 @@
     font-size: 15px;
 }
 
+.estilo__da-pagina {
+    background-color: #FEF4DE;
+    background-image: url('../img/Fundo-1.png');
+    background-size: 50%;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
 .estilo__texto--margem {
     padding-left: 40px;
     padding-right: 40px;
@@ -122,66 +171,6 @@
 .figura {
     width: 1000px;
 }
-
-.Pagina_contatos {
-    background-color: white;
-    text-align: center;
-    height: 55vh;
-}
-
-h2 {
-    width: 422px;
-    height: 96px;
-    left: 749px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 96px;
-
-    display: inline;
-    text-align: center;
-    color: #7c4032;
-}
-
-.retangulo {
-    margin: 20px;
-    background-color: white;
-    width: 400px;
-    height: 150px;
-    border-radius: 25px;
-    border: 1px solid #7c4032;
-}
-
-/*Essa estilização refere-se a barra do rodapé*/
-.Rodape {
-    padding-top: 2%;
-    height: 10%;
-    right: 10px;
-    left: 10px;
-    background-color: #55352D;
-}
-
-.textos {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    padding-left: 20px;
-    color: grey;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 25px;
-}
-
-.titulo {
-    text-align: center;
-    color: white;
-}
-
-/*Parte do Rafa*/
 
 .fundo {
     margin: 0px;
@@ -198,43 +187,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.logo {
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.urso {
-    width: 400px;
-}
-
-.botao_0 {
-    display: flex;
-    gap: 30px;
-}
-
-.botao_1 {
-    float: left;
-    height: 66px;
-    width: 210px;
-    border-radius: 35px;
-    background-color: #f3ce5e;
-}
-
-.botao_2 {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.texto {
-    text-align: justify;
-    color: #7c4032;
-    width: 445px;
-    height: 300px;
 }
 
 .frase_1 {
@@ -282,8 +234,57 @@ h2 {
     line-height: 33px;
 }
 
-/*Css do Thiago*/
-.btn-service {
+.help {
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    width: 422px;
+    height: 96px;
+    left: 749px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 96px;
+
+    display: inline;
+    text-align: center;
+    color: #7c4032;
+}
+
+.imagem {
+    margin: 15px;
+    height: 30px;
+    width: 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    height: 20px;
+    left: 60%;
+}
+
+.logo {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.main__service-btn {
     height: 200px;
     width: 20%;
     background-color: white;
@@ -300,27 +301,36 @@ h2 {
     justify-content: center;
 }
 
-.btn-service:hover {
+.main__service-btn:hover {
     background-color: rgba(243, 206, 94, 1);
     color: white;
 }
 
-.services {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-
+.pagina_contatos {
+    background-color: white;
+    text-align: center;
+    height: 55vh;
 }
 
-.title-service {
-    font-family: 'Poppins';
-    font-size: 40px;
-    color: white;
-    justify-content: center;
+.retangulo {
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid #7c4032;
 }
+
+/*Essa estilização refere-se a barra do rodapé*/
+.rodape {
+    padding-top: 2%;
+    height: 10%;
+    right: 10px;
+    left: 10px;
+    background-color: #55352D;
+}
+
+
 
 .service1 {
     display: flex;
@@ -333,49 +343,38 @@ h2 {
 
 }
 
-.btn-help {
-    justify-content: center;
-    cursor: pointer;
-    background-color: rgba(243, 206, 94, 1);
-    width: 210px;
-    height: 66px;
-    border-radius: 57px;
-    font-weight: 700;
-    align-self: center;
-    font-size: 18px;
-    color: rgba(124, 64, 50, 1);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.textos {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
+    color: grey;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
 }
 
-.btn-help:hover {
-    justify-content: center;
-    background-color: white;
-    cursor: pointer;
-    width: 210px;
-    height: 66px;
-    border-radius: 57px;
-    font-weight: 700;
-    align-self: center;
-    font-size: 18px;
-    color: rgba(124, 64, 50, 1);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.help {
+.titulo {
     text-align: center;
-    margin: 20px;
+    color: white;
 }
 
-.estilo__da-pagina {
-    background-color: #FEF4DE;
-    background-image: url('../img/Fundo-1.png');
-    background-size: 50%;
-    background-repeat: repeat;
-    font-family: 'Poppins', sans-serif;
+.texto {
+    text-align: justify;
+    color: #7c4032;
+    width: 445px;
+    height: 300px;
+}
+
+.title-service {
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
+
+.urso {
+    width: 400px;
 }
