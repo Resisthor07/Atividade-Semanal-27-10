@@ -38,12 +38,14 @@
 
 
 .botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     color: #7c4032;
     font-weight: bold;
     height: 56px;
     width: 168px;
-    margin-right: 300px;
     border-radius: 61px;
     border: 3px solid #7c4032;
 }
@@ -51,16 +53,20 @@
 .botao__amarelo {
     background-color: #F3CE5E;
     font-size: 18px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;
     margin-top: 25px;
-    margin-right: 0px;
+    margin-right: 0px;*/
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: 0px;
 }
 
-.botoes__bot--amarelo:hover {
+.botao__amarelo:hover {
     background-color: #7c4032;
     color: #F3CE5E;
+}
+
+.botao__distancia {
+    gap: 50px;
 }
 
 .botoes__input {
@@ -271,8 +277,6 @@ h2 {
     left: 60%;
 }
 
-<<<<<<< HEAD
-=======
 .logo {
     gap: 50px;
     display: flex;
@@ -288,6 +292,7 @@ h2 {
     justify-content: center;
     gap: 20px;
 }
+
 .main__service-btn {
     height: 200px;
     width: 20%;
@@ -310,7 +315,6 @@ h2 {
     color: white;
 }
 
->>>>>>> dc2207409f289d416f986d7e1fcd15db25819f2e
 .pagina_contatos {
     background-color: white;
     text-align: center;
