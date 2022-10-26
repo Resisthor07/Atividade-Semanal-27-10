@@ -98,6 +98,7 @@
     background-color: #FEF4DE;
     background-image: url('../img/Fundo-1.png');
     background-size: 100vh;
+    width: 100vw;
     background-repeat: repeat;
     font-family: 'Poppins', sans-serif;
 }
@@ -138,7 +139,6 @@ h2 {
     width: 422px;
     height: 96px;
     left: 749px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
