@@ -10,6 +10,9 @@
 .background__servicos {
     background-color: #7c4032;
     text-align: center;
+    padding-top: 110px;
+    padding-block-end: 110px;
+
 }
 
 .botao {
@@ -19,6 +22,8 @@
 
 .centralizar {
     text-align: center;
+    padding-top: 110px;
+    padding-block-end: 110px;
 }
 
 .imagens {
@@ -45,6 +50,7 @@
     margin-right: 300px;
     border-radius: 61px;
     border: 3px solid #7c4032;
+    cursor: pointer;
 }
 
 .Botoes__bot--amarelo {
@@ -55,11 +61,12 @@
     margin-right: 0px;
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: 0px;
+    cursor: pointer;
 }
 
 .Botoes__bot--amarelo:hover {
-    background-color: #7c4032;
-    color: #F3CE5E;
+    background-color: #ea9118;
+    color: #7c4032;
 }
 
 .Botoes__input {
@@ -80,8 +87,7 @@
     font-weight: 900;
     font-size: 64px;
     line-height: 96px;
-
-    font-display: center;
+    font-display: auto;
     margin: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -91,9 +97,8 @@
 .estilo__da-pagina {
     background-color: #FEF4DE;
     background-image: url('../img/Fundo-1.png');
-    background-size: 50%;
+    background-size: 100vh;
     background-repeat: repeat;
-
     font-family: 'Poppins', sans-serif;
 }
 
@@ -186,12 +191,12 @@ h2 {
 .fundo {
     margin: 0px;
     background-color: #7c4032;
-    background-size: 67%;
+    background-size: 100vw;
 }
 
 .fundo_oval {
-    height: 700px;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
     background-color: #fef4de;
     background-image: url(../img/Fundo-1.png);
@@ -280,6 +285,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     line-height: 33px;
+    cursor: pointer;
 }
 
 /*Css do Thiago*/
@@ -360,7 +366,7 @@ h2 {
     font-weight: 700;
     align-self: center;
     font-size: 18px;
-    color: rgba(124, 64, 50, 1);
+    color: rgb(156, 131, 26);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
