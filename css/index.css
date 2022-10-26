@@ -281,3 +281,101 @@ h2 {
     vertical-align: middle;
     line-height: 33px;
 }
+
+/*Css do Thiago*/
+.btn-service {
+    height: 200px;
+    width: 20%;
+    background-color: white;
+    color: rgba(124, 64, 50, 1);
+    border-radius: 11px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid rgba(124, 64, 50, 1);
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-service:hover {
+    background-color: rgba(243, 206, 94, 1);
+    color: white;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.title-service {
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
+
+.service1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(124, 64, 50, 1);
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.btn-help {
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(243, 206, 94, 1);
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-help:hover {
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.help {
+    text-align: center;
+    margin: 20px;
+}
+
+.estilo__da-pagina {
+    background-color: #FEF4DE;
+    background-image: url('../img/Fundo-1.png');
+    background-size: 50%;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
