@@ -1,0 +1,259 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1666812052810)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]/shelved.patch	(date 1666812052810)
+@@ -0,0 +1,84 @@
++Index: .idea/workspace.xml
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	
+++++ b/.idea/workspace.xml	
++@@ -1,7 +1,8 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="ChangeListManager">
++-    <list default="true" id="4cbc0d7c-fcd2-4e88-b784-60c9deea70a0" name="Changes" comment="Merge remote-tracking branch 'origin/servicosthiago' into servicosthiago">
+++    <list default="true" id="4cbc0d7c-fcd2-4e88-b784-60c9deea70a0" name="Changes" comment="Fiz alguns ajustes no CSS">
+++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++@@ -12,6 +13,7 @@
++   <component name="Git.Settings">
++     <option name="PREVIOUS_COMMIT_AUTHORS">
++       <list>
+++        <option value="SamirCharleston &lt;samircharleston@gmail.com&gt;" />
++         <option value="Administrador &lt;thhyagofoz@gmail.com&gt;" />
++       </list>
++     </option>
++@@ -39,15 +41,16 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent">{
++-  &quot;keyToString&quot;: {
++-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
++-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+++  <component name="PropertiesComponent"><![CDATA[{
+++  "keyToString": {
+++    "RunOnceActivity.OpenProjectViewOnStart": "true",
+++    "RunOnceActivity.ShowReadmeOnStart": "true",
+++    "WebServerToolWindowFactoryState": "false",
+++    "last_opened_file_path": "C:/Users/thiago.tco.PMFI/Desktop/Engenharia de software/Resisthor-Grupo7",
+++    "run.code.analysis.last.selected.profile": "pProject Default",
+++    "vue.rearranger.settings.migration": "true"
++   }
++-}</component>
+++}]]></component>
++   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="Ajustes do CSS">
++@@ -64,7 +67,8 @@
++       <option name="presentableId" value="Default" />
++       <updated>1666712629736</updated>
++       <workItem from="1666712633674" duration="9141000" />
++-      <workItem from="1666797043251" duration="3646000" />
+++      <workItem from="1666797043251" duration="4094000" />
+++      <workItem from="1666809690056" duration="1995000" />
++     </task>
++     <task id="LOCAL-00002" summary="inclusão de alguns textos da parte dos serviços">
++       <created>1666716385650</created>
++@@ -80,7 +84,14 @@
++       <option name="project" value="LOCAL" />
++       <updated>1666726227139</updated>
++     </task>
++-    <option name="localTasksCounter" value="4" />
+++    <task id="LOCAL-00004" summary="Fiz alguns ajustes no CSS">
+++      <created>1666809033864</created>
+++      <option name="number" value="00004" />
+++      <option name="presentableId" value="LOCAL-00004" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1666809033864</updated>
+++    </task>
+++    <option name="localTasksCounter" value="5" />
++     <servers />
++   </component>
++   <component name="TypeScriptGeneratedFilesManager">
++@@ -129,6 +140,7 @@
++     <MESSAGE value="Ajustes do CSS" />
++     <MESSAGE value="inclusão de alguns textos da parte dos serviços" />
++     <MESSAGE value="Merge remote-tracking branch 'origin/servicosthiago' into servicosthiago" />
++-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/servicosthiago' into servicosthiago" />
+++    <MESSAGE value="Fiz alguns ajustes no CSS" />
+++    <option name="LAST_COMMIT_MESSAGE" value="Fiz alguns ajustes no CSS" />
++   </component>
++ </project>
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1666812052821)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1/shelved.patch	(date 1666812052821)
+@@ -0,0 +1,30 @@
++Index: css/index.css
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/css/index.css b/css/index.css
++--- a/css/index.css	
+++++ b/css/index.css	
++@@ -138,13 +138,11 @@
++     width: 422px;
++     height: 96px;
++     left: 749px;
++-
++     font-family: 'Poppins';
++     font-style: normal;
++     font-weight: 900;
++     font-size: 45px;
++     line-height: 96px;
++-
++     display: inline;
++     text-align: center;
++     color: #7c4032;
++@@ -248,7 +246,6 @@
++     font-weight: bold;
++     height: 90px;
++     text-align: center;
++-
++     margin: 0px;
++     padding: 0px;
++ }
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1666812062450)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_.xml	(date 1666812062450)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]" date="1666812045115" recycled="false" toDelete="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 26/10/2022 16:20 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_1.xml
+new file mode 100644
+--- /dev/null	(date 1666812062497)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20__Changes_1.xml	(date 1666812062497)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1" date="1666812052824" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_10_2022_16_20_[Changes]1/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 26/10/2022 16:20 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/Resisthor-Grupo7.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Resisthor-Grupo7.iml b/.idea/Resisthor-Grupo7.iml
+new file mode 100644
+--- /dev/null	(date 1666809790763)
++++ b/.idea/Resisthor-Grupo7.iml	(date 1666809790763)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1666812551530)
++++ b/.idea/workspace.xml	(date 1666812551530)
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="4cbc0d7c-fcd2-4e88-b784-60c9deea70a0" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="producao" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="TaskManager">
++    <servers />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1666809790825)
++++ b/.idea/modules.xml	(date 1666809790825)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Resisthor-Grupo7.iml" filepath="$PROJECT_DIR$/.idea/Resisthor-Grupo7.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1666809790895)
++++ b/.idea/vcs.xml	(date 1666809790895)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
