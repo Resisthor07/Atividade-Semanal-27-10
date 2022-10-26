@@ -123,9 +123,10 @@
     width: 1000px;
 }
 
-footer {
+.Pagina_contatos{
     background-color: white;
     text-align: center;
+    height: 55vh;
 }
 
 h2 {
@@ -155,12 +156,11 @@ h2 {
 
 /*Essa estilização referece a barra do rodapé*/
 .Rodape {
-    position: absolute;
-    height: 117px;
-    width: 1703px;
+    padding-top: 2%;
+    height: 10%;
     right: 10px;
     left: 10px;
-    background-color: #7c4032;
+    background-color: #55352D;
 }
 
 .textos {
