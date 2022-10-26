@@ -30,13 +30,6 @@
     background-color: #f3ce5e;
 }
 
-/*.botao {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}*/
-
-
 .botao {
     display: inline-flex;
     justify-content: center;
@@ -66,6 +59,7 @@
 }
 
 .botao__distancia {
+    display: inline-flex;
     gap: 50px;
 }
 
@@ -204,6 +198,11 @@
     margin: 0px;
     background-color: #7c4032;
     background-size: 67%;
+}
+
+.header__about-us {
+    display: flex;
+    align-items: center;
 }
 
 .header__fundo-oval {
