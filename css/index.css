@@ -154,7 +154,7 @@ h2 {
     border: 1px solid #7c4032;
 }
 
-/*Essa estilização referece a barra do rodapé*/
+/*Essa estilização refere-se a barra do rodapé*/
 .Rodape {
     padding-top: 2%;
     height: 10%;
@@ -190,7 +190,7 @@ h2 {
 }
 
 .fundo_oval {
-    height: 1024px;
+    height: 700px;
     width: 100%;
     border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
     background-color: #fef4de;
