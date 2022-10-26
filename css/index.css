@@ -10,8 +10,6 @@
 .background__servicos {
     background-color: #7c4032;
     text-align: center;
-    width: 100%;
-    justify-content: space-between;
 }
 
 .botao {
@@ -32,13 +30,6 @@
     background-color: #f3ce5e;
 }
 
-/*.botao {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}*/
-
-
 .botao {
     display: inline-flex;
     justify-content: center;
@@ -55,9 +46,9 @@
 .botao__amarelo {
     background-color: #F3CE5E;
     font-size: 18px;
-    /margin-bottom: 25px;
+    /*margin-bottom: 25px;
     margin-top: 25px;
-    margin-right: 0px;
+    margin-right: 0px;*/
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: 0px;
 }
@@ -68,6 +59,7 @@
 }
 
 .botao__distancia {
+    display: inline-flex;
     gap: 50px;
 }
 
@@ -206,6 +198,11 @@
     margin: 0px;
     background-color: #7c4032;
     background-size: 67%;
+}
+
+.header__about-us {
+    display: flex;
+    align-items: center;
 }
 
 .header__fundo-oval {
