@@ -9,6 +9,7 @@
 
 .background__servicos {
     background-color: #7c4032;
+    width: 100vw;
     text-align: center;
     padding-top: 110px;
     padding-block-end: 110px;
@@ -96,6 +97,7 @@
 
 .estilo__da-pagina {
     background-color: #FEF4DE;
+    margin: 0px;
     background-image: url('../img/Fundo-1.png');
     background-size: 100vh;
     width: 100vw;
