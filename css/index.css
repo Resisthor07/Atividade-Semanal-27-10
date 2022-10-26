@@ -46,7 +46,7 @@
 .texto
 {
     position: absolute;
-    left: 400px;
+    left: 340px;
     top: 280px;
     width: 580px;
     color: #7c4032;
@@ -55,7 +55,7 @@
 {
     font-family: 'Poppins';
     font-size: 115px; 
-    font-weight: bold;
+    font-weight: bolder;
     height: 118px;
 
     margin: 0px;
