@@ -1,181 +1,132 @@
+/*Importação da fonte Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
-.fundo
-{
-    margin: 0px;
-    background-color: #7c4032;
-    background-size: 67%;
-}
-.fundo_oval
-{  
-    height: 1024px;
-    width: 1956px;
-    border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
-    background-color: #fef4de;
-    background-image: url(../img/Fundo-1.png);
-}
-
-.logo
-{
-    position: absolute;
-    left: 1007px;
-    top: 181px;
-}
-
-.botao_0
-{
+.address {
     display: flex;
-    gap: 30px;
-}
-
-.botao_1
-{
-    float: left;
-    height: 66px;
-    width: 210px;
-    border-radius: 30px;
-    background-color: #f3ce5e;
-}
-.botao_2
-{
-    float: right;
-}
-
-.texto
-{
-    position: absolute;
-    left: 340px;
-    top: 280px;
-    width: 580px;
-    color: #7c4032;
-}
-.frase_1
-{
-    font-family: 'Poppins';
-    font-size: 115px; 
-    font-weight: bolder;
-    height: 118px;
-
-    margin: 0px;
-    padding: 0px; 
-}
-.frase_2
-{
-    font-family: 'Poppins';
-    font-size: 58px;
-    font-weight: bold;
-    letter-spacing: 24px;
-    margin: 0px;
-    padding: 0px; 
-}
-.frase_3
-{
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 16px;
-}
-.frase_4
-{
-    font-family: 'Poppins';
-    font-size: 18px; 
-    font-weight: bold;  
-    text-align: center;
-    vertical-align: middle;
-    line-height: 33px;  
-}
-.frase_5
-{
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 33px;  
-}
-
-
-
-
-
-.address{
-    display:flex;
     justify-content: center;
     background-color: white;
 }
+
 .background__servicos {
     background-color: #7c4032;
     text-align: center;
 }
 
 .botao {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-.imagens {
-    display:flex;
-    flex-direction: column;
-    width: 25px;
-    height: 20px; 
-    left: 60%; 
-
+.botao_0 {
+    display: flex;
+    gap: 30px;
 }
 
-.imagem {
-    margin: 15px;
-    height: 30px;
-    width: 20px;
-
+.botao_1 {
+    float: left;
+    height: 66px;
+    width: 210px;
+    border-radius: 35px;
+    background-color: #f3ce5e;
 }
 
-.Botoes__bot {
+.botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     color: #7c4032;
     font-weight: bold;
     height: 56px;
     width: 168px;
-    top: 3027px;
-    margin-right: 300px;
     border-radius: 61px;
     border: 3px solid #7c4032;
 }
 
-.Botoes__bot--amarelo {
+.botao__amarelo {
     background-color: #F3CE5E;
     font-size: 18px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 0px;*/
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border: 0px;
 }
 
-.Botoes__input {
+.botao__amarelo:hover {
+    background-color: #7c4032;
+    color: #F3CE5E;
+}
+
+.botao__distancia {
+    display: inline-flex;
+    gap: 50px;
+}
+
+.botoes__input {
     background-color: #e6af99;
     margin: 2px;
     border: 5px;
     height: 56px;
     width: 374px;
-    border-radius:61px;   
+    border-radius: 61px;
 }
 
-.contatos{
+.btn-help {
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(243, 206, 94, 1);
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-help:hover {
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-weight: 700;
+    align-self: center;
+    font-size: 18px;
+    color: rgba(124, 64, 50, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.centralizar {
+    text-align: center;
+}
+
+.contatos {
     text-align: center;
     width: 422px;
     height: 96px;
-    top: 50%;
-    top: 2671px;  
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
     line-height: 96px;
 
-    font-display: center;
+    font-display: auto;
     margin: 500px;
     margin-left: auto;
     margin-right: auto;
-    color: #7c4032;   
+    color: #7c4032;
 }
 
 .estilo__da-pagina {
@@ -184,28 +135,126 @@
     background-size: 50%;
     background-repeat: repeat;
 
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
+}
+
+.estilo__texto {
+    text-align: justify;
+    font-size: 10px;
+}
+
+.estilo__texto--titulo {
+    color: #7c4032;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.estilo__da-pagina {
+    background-color: #FEF4DE;
+    background-image: url('../img/Fundo-1.png');
+    background-size: 100%;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.estilo__texto--margem {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.estilo__testymonials {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 
 .figura {
     width: 1000px;
 }
 
-footer{
-    background-color: white;
+.frase_4 {
+    font-size: 18px;
     text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+}
+
+.header__logo--subtitulo {
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__logo--texto {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header {
+    margin: 0px;
+    background-color: #7c4032;
+    background-size: 67%;
+}
+
+.header__about-us {
+    display: flex;
+    align-items: center;
+}
+
+.header__fundo-oval {
+    height: 700px;
+    width: 100%;
+    border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
+    background-color: #fef4de;
+    background-image: url(../img/Fundo-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo--titulo {
+    font-family: 'Poppins';
+    font-size: 90px;
+    font-weight: bold;
+    height: 90px;
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__texto {
+    text-align: justify;
+    color: #7c4032;
+    width: 445px;
+    height: 300px;
+}
+
+.help {
+    text-align: center;
+    margin: 20px;
 }
 
 h2 {
     width: 422px;
     height: 96px;
     left: 749px;
-    top: 2671px;
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
+    font-size: 45px;
     line-height: 96px;
 
     display: inline;
@@ -213,19 +262,96 @@ h2 {
     color: #7c4032;
 }
 
+.imagem {
+    margin: 15px;
+    height: 30px;
+    width: 20px;
+}
 
-/*Essa estilização referece a barra do rodapé*/
-.Rodape{
-    position: absolute;
-    height: 117px;
-    width: 1703px;
-    right: 203;
-    left: 203;
-    top: 3133;
-    background-color: #7c4032;   
- }
+.imagens {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    height: 20px;
+    left: 60%;
+}
 
-.textos{
+.logo {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__service-btn {
+    height: 200px;
+    width: 20%;
+    background-color: white;
+    color: rgba(124, 64, 50, 1);
+    border-radius: 11px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid rgba(124, 64, 50, 1);
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__service-btn:hover {
+    background-color: rgba(243, 206, 94, 1);
+    color: white;
+}
+
+.pagina_contatos {
+    background-color: white;
+    text-align: center;
+    height: 55vh;
+}
+
+.retangulo {
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid #7c4032;
+}
+
+/*Essa estilização refere-se a barra do rodapé*/
+.rodape {
+    padding-top: 2%;
+    height: 10%;
+    right: 10px;
+    left: 10px;
+    background-color: #55352D;
+}
+
+
+
+.service1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(124, 64, 50, 1);
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.textos {
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -243,3 +369,13 @@ h2 {
     color: white;
 }
 
+.title-service {
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
+
+.urso {
+    width: 400px;
+}
