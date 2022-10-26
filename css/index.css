@@ -162,7 +162,6 @@ h2 {
 .Rodape {
     position: absolute;
     height: 117px;
-    width: 1703px;
     right: 203;
     left: 203;
     top: 3133;
@@ -185,4 +184,105 @@ h2 {
 .titulo {
     text-align: center;
     color: white;
+}
+
+/*Parte do Rafa*/
+
+.fundo {
+    margin: 0px;
+    background-color: #7c4032;
+    background-size: 67%;
+}
+
+.fundo_oval {
+    height: 1024px;
+    width: 100%;
+    border-radius: 0% 50% 0% 50% / 0% 20% 0% 20%;
+    background-color: #fef4de;
+    background-image: url(../img/Fundo-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urso {
+    width: 400px;
+}
+
+.botao_0 {
+    display: flex;
+    gap: 30px;
+}
+
+.botao_1 {
+    float: left;
+    height: 66px;
+    width: 210px;
+    border-radius: 35px;
+    background-color: #f3ce5e;
+}
+
+.botao_2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.texto {
+    text-align: justify;
+    color: #7c4032;
+    width: 445px;
+    height: 300px;
+}
+
+.frase_1 {
+    font-family: 'Poppins';
+    font-size: 90px;
+    font-weight: bold;
+    height: 90px;
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.frase_2 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.frase_3 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.frase_4 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
+}
+
+.frase_5 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 33px;
 }
