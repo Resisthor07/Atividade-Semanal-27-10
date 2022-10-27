@@ -30,17 +30,25 @@
     background-color: #f3ce5e;
 }
 
+/*.botao {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}*/
+
+
 .botao {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: #7c4032;
     font-weight: bold;
     height: 56px;
-    width: 168px;
+    width: 170px;
     border-radius: 61px;
     border: 3px solid #7c4032;
+
 }
 
 .botao__amarelo {
@@ -59,17 +67,16 @@
 }
 
 .botao__distancia {
-    display: inline-flex;
     gap: 50px;
 }
 
 .botoes__input {
     background-color: #e6af99;
-    margin: 2px;
-    border: 5px;
-    height: 56px;
-    width: 374px;
-    border-radius: 61px;
+    margin: 12px;
+    border: 50px;
+    height: 100px;
+    width: 200px;
+    border-radius: 500px;
 }
 
 .btn-help {
@@ -200,11 +207,6 @@
     background-size: 67%;
 }
 
-.header__about-us {
-    display: flex;
-    align-items: center;
-}
-
 .header__fundo-oval {
     height: 700px;
     width: 100%;
@@ -271,9 +273,9 @@ h2 {
 .imagens {
     display: flex;
     flex-direction: column;
-    width: 25px;
-    height: 20px;
-    left: 60%;
+    width: 50px;
+    height: 50px;
+    left: 30%;
 }
 
 .logo {
