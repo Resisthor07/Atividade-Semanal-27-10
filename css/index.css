@@ -10,11 +10,13 @@
 .background__servicos {
     background-color: #7c4032;
     text-align: center;
+    padding: 20px;
 }
 
 .botao {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .botao_0 {
@@ -59,11 +61,13 @@
     margin-right: 0px;*/
     box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: 0px;
+    cursor: pointer;
 }
 
 .botao__amarelo:hover {
-    background-color: #7c4032;
-    color: #F3CE5E;
+    background-color: white;
+    color: #7c4032;
+    cursor: pointer;
 }
 
 .botao__distancia {
