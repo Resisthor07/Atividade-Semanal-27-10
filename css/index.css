@@ -20,24 +20,6 @@
 }
 
 .botao {
-    display: flex;
-    flex-direction: column;
-}
-
-.botao_0 {
-    display: flex;
-    gap: 30px;
-}
-
-.botao_1 {
-    float: left;
-    height: 66px;
-    width: 210px;
-    border-radius: 35px;
-    background-color: #f3ce5e;
-}
-
-.botao {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -85,12 +67,6 @@
     align-items: center;
 }
 
-.botao__rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .botoes__input {
     background-color: #e6af99;
     margin: 2px;
@@ -103,22 +79,6 @@
 
 .centralizar {
     text-align: center;
-}
-
-.contatos {
-    text-align: center;
-    width: 422px;
-    height: 96px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 64px;
-    line-height: 96px;
-
-    font-display: auto;
-    margin: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #7c4032;
 }
 
 .estilo__texto {
@@ -136,7 +96,7 @@
     margin: 0px;
     background-color: #FEF4DE;
     background-image: url('../img/Fundo-1.png');
-    background-size: 80%;
+    background-size: 90%;
     background-repeat: repeat;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -153,17 +113,6 @@
     justify-content: center;
 }
 
-.figura {
-    width: 1000px;
-}
-
-.frase_4 {
-    font-size: 18px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 33px;
-}
-
 .header__logo--subtitulo {
     font-size: 40px;
     letter-spacing: 20px;
@@ -172,14 +121,7 @@
     padding: 0px;
 }
 
-.header__logo--texto {
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 16px;
-}
-
 .header {
-    margin: 0px;
     background-color: #7c4032;
 }
 
@@ -189,11 +131,13 @@
 }
 
 .header__fundo-oval {
-    height: 700px;
+    height: 47vw;
     width: 100%;
     border-radius: 0% 50% 0% 100% / 0% 10% 0% 15%;
     background-color: #fef4de;
     background-image: url(../img/Fundo-1.png);
+    background-size: 90%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,11 +168,6 @@
     height: 300px;
 }
 
-.help {
-    text-align: center;
-    margin: 20px;
-}
-
 h2 {
     width: 422px;
     height: 96px;
@@ -256,13 +195,6 @@ h2 {
     width: 3px;
     height: 40px;
     left: 30px;
-}
-
-.logo {
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main__service {
@@ -320,34 +252,12 @@ h2 {
     background-color: #55352D;
 }
 
-.rodape__alinhamento {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.rodape__espacamento {
-    gap: 10px;
-}
-
-.service1 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(124, 64, 50, 1);
-    width: 100vw;
-    height: 100%;
-    text-align: center;
-    justify-content: space-between;
-
-}
-
 .textos {
     display: flex;
     text-align: left;
     flex-direction: column;
     padding-left: 20px;
     color: grey;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -359,13 +269,6 @@ h2 {
 .titulo {
     text-align: center;
     color: white;
-}
-
-.title-service {
-    font-family: 'Poppins';
-    font-size: 40px;
-    color: white;
-    justify-content: center;
 }
 
 .urso {
